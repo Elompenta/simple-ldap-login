@@ -49,6 +49,9 @@ Simple LDAP Login adds an authentication filter to WordPress that authentication
 
 This is high level overview. This should answer the philosophical questions about how the plugin works. If the plugin is unable to authenticate the user, it should pass it down the chain to WordPress. (Unless LDAP Exclusive is turned on, in which case it won't.)
 
+## Requirements ##
+* PHP Extensions: php-ldap
+
 ## Changelog ##
 **Version 1.6.0**
 
